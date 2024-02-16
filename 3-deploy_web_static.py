@@ -7,9 +7,9 @@ from fabric.api import local
 from fabric.api import put
 from fabric.api import run
 
-env.hosts = ["54.165.215.81", "18.209.24.125"]
 
 
+env.hosts = ['54.227.179.101', '3.90.204.71']
 def do_pack():
     """ creates gzipped archive of the directory web_static """
     dt = datetime.utcnow()
